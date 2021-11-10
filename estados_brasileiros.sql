@@ -13,7 +13,7 @@ regiao enum(
 	'CENTRO-OESTE',
 	'SUDESTE',
 	'SUL') NOT NULL,
-populacao int,
+populacao int NOT NULL,
 UNIQUE KEY(nome),
 primary key(id)
 );
