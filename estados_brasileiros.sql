@@ -2,7 +2,7 @@ use panacademy;
 
 create table estados (
 id int unsigned NOT NULL auto_increment,
-nome varchar(50),
+nome varchar(50) NOT NULL,
 sigla enum(
 	'AC','AL','AP','AM','BA','CE','DF','ES','GO',
 	'MA','MT','MS','MG','PA','PB','PR','PE','PI',
