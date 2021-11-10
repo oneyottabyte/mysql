@@ -48,5 +48,10 @@ values
     
 SELECT * FROM panacademy.estados ORDER BY sigla;
 
+SELECT regiao, SUM(populacao) AS populacao FROM panacademy.estados GROUP BY regiao;
+
+SELECT regiao, AVG(populacao) AS populacao FROM panacademy.estados GROUP BY regiao;
+    
+SELECT * FROM panacademy.estados ORDER BY regiao;
 
     
